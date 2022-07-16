@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Ballet:opsz@16..72&family=Dancing+Script&family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #121212;
+  --white: #FFFFFF;
+  --lightblue: #46AFCF;
+  --darkblue: #03466E;
+  --lightgreen: #90EE90;
+}
+
+#info {
+  background: var(--lightblue);
+  padding: 2rem 2rem;
+}
+
+#info .info-groups {
+  margin-left: 27rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+#info .info-group1 {
+  float: left;
+  margin-top: -.8rem;
+}
+
+#info h6 {
+  margin-left: 2rem;
+  margin-top: -1.5rem;
+}
+
+#info .info-group2 {
+  margin-left: 20rem;
+  margin-top: -1.7rem;
+}
+
+.icons {
+  margin-top: -2.1rem;
+  margin-left: 35rem;
+}
+
+.icons a {
+  color: var(--white);
+  font-size: 24px;
+  padding: 1.5rem 1rem;
+}
+
+.icons a:hover {
+  background: var(--darkblue);
+  color: var(--white);
+}
+
+#navbar {
+  background: var(--white);
+  box-shadow: 0 3px 10px #00000033;
+  padding: 1rem 2rem;
+}
+
+#navbar img {
+  width: 5rem;
+  margin: .5rem 2rem;
+  margin-left: 15rem;
+}
+
+#navbar i {
+  display: none;
+}
+
+#navbar .nav_list {
+  margin-top: -1rem;
+}
+
+#navbar ul {
+  margin-left: 20rem;
+  margin-top: -4.4rem;
+}
+
+#navbar li {
+  float: left;
+  padding: 1rem 1rem;
+  list-style: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bolder;
+  transition: .5s;
+}
+
+#navbar a:hover {
+  color: var(--darkblue);
+}
+
+#navbar .active {
+  color: var(--darkblue);
+}
+
+.cover img {
+  width: 95rem;
+}
+
+.image img {
+  width: 30rem;
+  margin-left: 32rem;
+  margin-top: -65rem;
+}
+
+.cards img {
+  width: 95rem;
+  height: 55rem;
+  margin-top: -1.5rem;
+}
+
+.row {
+  margin-top: -51rem;
+}
+
+.row .column {
+  margin-left: 10rem;
+}
+
+.row .card {
+  width: 25rem;
+  margin-left: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px #00000033;
+}
+
+.row img {
+  width: 5rem;
+  margin-top: -3.5rem;
+  margin-left: 4rem;
+}
+
+.row h1 {
+  margin-top: -4rem;
+  margin-left: -7.8rem;
+  color: var(--white);
+  font-weight: bolder;
+}
+
+.row h3 {
+  margin-top: -3rem;
+  text-transform: uppercase;
+  margin-left: 5rem;
+  color: var(--darkblue);
+  font-weight: bolder;
+}
+
+.row p {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.about {
+  margin-left: 10.5rem;
+  margin-top: 10rem;
+}
+
+.about h1 {
+  font-weight: bolder;
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin-top: 10rem;
+  color: var(--darkblue);
+}
+
+.about p {
+  width: 25rem;
+  font-size: 20px;
+  color: var(--darkblue);
+  font-weight: 500;
+}
+
+.about img {
+  width: 40rem;
+  height: 25rem;
+  margin-top: -20rem;
+  margin-left: 30rem;
+}
+
+#testimonies {
+  margin-top: 1.5rem;
+}
+
+#testimonies img {
+  width: 95rem;
+  height: 56rem;
+}
+
+#testimonies h1 {
+  margin-top: -55.5rem;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 5rem;
+  color: var(--darkblue);
+}
+
+.row1 {
+  margin-top: 3rem;
+}
+
+.row1 .column {
+  margin-left: 15rem;
+}
+
+.row1 .card {
+  width: 20rem;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px #00000033;
+}
+
+.row1 h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.row1 img {
+  width: 5rem;
+  margin-top: -3rem;
+  margin-left: 6rem;
+}
+
+.footer {
+  background: var(--lightblue);
+  margin-top: 14rem;
+  padding: 1rem 3rem;
+}
+
+.footer h1 {
+  font-size: 25px;
+  padding-top: 1rem;
+  font-weight: bolder;
+  color: var(--white);
+}
+
+.footer h2 {
+  float: right;
+  font-size: 25px;
+  margin-top: -2.5rem;
+  font-weight: bolder;
+  color: var(--white);
+}
+
+.footer img {
+  width: 5rem;
+  margin-top: -4.5rem;
+  margin-left: 43rem;
+}

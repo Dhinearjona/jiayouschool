@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import "./media-query/laptop.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Calibri", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --lightblue: #46AFCF;
+  --darkblue: #03466E;
+  --mintgreen: #90EE90;
+  --green: #65CDAA;
+}
+
+.header {
+  width: 100%;
+  background: var(--lightblue);
+  display: inline-flex;
+  align-items: baseline;
+  padding: 1rem 27rem;
+}
+.header i, .header p {
+  display: inline;
+  padding: 1rem 1rem;
+  color: var(--white);
+}
+
+.main {
+  width: 100%;
+}
+.main .Navbar {
+  background-color: var(--white);
+  display: flex;
+  padding: 0.5rem 6rem;
+  font-family: sans-serif;
+  color: var(--white);
+  align-items: center;
+}
+.main img {
+  width: 3rem;
+  cursor: pointer;
+}
+.main .Navbar__Link {
+  padding: 0 1rem;
+  color: var(--black);
+  text-decoration: none;
+}
+.main .Navbar__Link:hover {
+  color: var(--red);
+}
+.main .Navbar__Items {
+  display: flex;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+.main .Navbar__Link-toggle {
+  display: none;
+}
+.main .active {
+  color: var(--darkblue);
+}
+@media only screen and (max-width: 768px) {
+  .main .Navbar__Items,
+.main .Navbar {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .main .Navbar__Items {
+    display: none;
+    padding: 0;
+  }
+  .main .Navbar__Link {
+    line-height: 3rem;
+    padding: 0;
+    color: var(--darkblue);
+  }
+  .main .Navbar__Link:hover {
+    background: var(--darkblue);
+    color: var(--white);
+  }
+  .main .Navbar__ToggleShow {
+    width: 100%;
+    display: flex;
+    margin: 1rem;
+    font-size: 20px;
+    text-align: center;
+  }
+  .main .Navbar__Link-toggle {
+    align-self: flex-end;
+    color: var(--darkblue);
+    padding-top: 0.3rem;
+    padding-right: 1rem;
+    font-size: 30px;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+.cover {
+  background-image: url(/img/cover1.jpg);
+  background-size: cover;
+}
+.cover .cover-background img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.cover .cover-details {
+  justify-content: center;
+  padding: 5rem 5rem;
+  text-align: center;
+}
+.cover .cover-details img {
+  width: 25%;
+}
+.cover .cover-details h1 {
+  font-family: "Allura", sans-serif;
+  font-size: 6rem;
+  font-weight: bolder;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+.cover .cover-btn {
+  display: inline-flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  background: var(--darkblue);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cover .cover-btn a {
+  text-decoration: none;
+  color: var(--white);
+}
+.cover .cover-btn a:hover {
+  color: var(--white);
+}
+.cover .cover-btn:hover {
+  background: var(--black);
+  color: var(--black);
+}
+
+.services {
+  width: 100%;
+  background-image: url(/img/cover4.svg);
+  background-size: cover;
+  height: auto;
+}
+.services .services-header {
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-content: center;
+}
+.services .services-header h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+.services .services-header p {
+  font-size: 1.5rem;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+.services .services-details .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10rem;
+}
+.services .services-details .column {
+  display: contents;
+}
+.services .services-details .card {
+  width: 18rem;
+  height: 18rem;
+  padding: 3rem 1rem;
+  margin: 1rem 1rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+.services .services-details .card i {
+  font-size: 3rem;
+  color: var(--darkblue);
+}
+.services .services-details .card h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: var(--darkblue);
+  margin: 1rem 0;
+}
+.services .services-details .card p {
+  font-size: 1rem;
+  color: var(--darkblue);
+}
+
+.class .class-header {
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-content: center;
+}
+.class .class-header h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+.class .class-header p {
+  font-size: 1.5rem;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+.class .class-course {
+  justify-content: center;
+}
+.class .class-course video {
+  justify-content: center;
+  width: 50%;
+  margin: 0 25%;
+}
+
+.promotion {
+  background-image: url(/img/img3.png);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-size: cover;
+}
+.promotion .promotion-header-left {
+  text-align: center;
+  margin: 0 3rem;
+}
+.promotion .promotion-header-left h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+.promotion .promotion-header-left p {
+  font-size: 1.5rem;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+.promotion .promotion-header-left .btn-about {
+  display: inline-flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  background: var(--darkblue);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.promotion .promotion-header-left .btn-about a {
+  text-decoration: none;
+  color: var(--white);
+}
+.promotion .promotion-header-left .btn-about a:hover {
+  color: var(--white);
+}
+.promotion .promotion-header-left .btn-about:hover {
+  background: var(--black);
+  color: var(--black);
+}
+.promotion .promotion-image-right img {
+  width: 75%;
+}
+
+.footer {
+  background: var(--lightblue);
+  justify-content: center;
+  text-align: center;
+}
+.footer img {
+  width: 4rem;
+  padding: 1rem 0;
+}

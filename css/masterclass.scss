@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Ballet:opsz@16..72&family=Dancing+Script&family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #121212;
+    --white: #FFFFFF;
+    --lightblue: #46AFCF;
+    --darkblue: #03466E;
+    --lightgreen: #90EE90;
+}
+
+#info {
+    background: var(--lightblue);
+    padding: 2rem 2rem;
+
+    .info-groups {
+        margin-left: 27rem;
+        color: var(--white);
+        cursor: pointer;
+    }
+
+    .info-group1 {
+        float: left;
+        margin-top: -.8rem;
+    }
+
+    h6 {
+        margin-left: 2rem;
+        margin-top: -1.5rem;
+    }
+    .info-group2 {
+        margin-left: 20rem;
+        margin-top: -1.7rem;
+    }
+}
+
+.icons {
+    margin-top: -2.1rem;
+    margin-left: 35rem;
+
+    a {
+        color: var(--white);
+        font-size: 24px;
+        padding: 1.5rem 1rem;
+    }
+
+    a:hover {
+        background: var(--darkblue);
+        color: var(--white);
+    }
+}
+
+#navbar {
+    background: var(--white);
+    box-shadow: 0 3px 10px #00000033;
+    padding: 1rem 2rem;
+
+    img {
+        width: 5rem;
+        margin: .5rem 2rem;
+        margin-left: 15rem;
+    }
+
+    i {
+        display: none;
+    }
+
+    .nav_list {
+        margin-top: -1rem;
+    }
+
+    ul {
+        margin-left: 20rem;
+        margin-top: -4.4rem;
+    }
+
+    li {
+        float: left;
+        padding: 1rem 1rem;
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--black);
+        font-weight: bolder;
+        transition: .5s;
+    }
+
+    a:hover {
+        color: var(--darkblue);
+    }
+
+    .active {
+        color: var(--darkblue);
+    }
+}
+
+.masterclass {
+
+    img {
+        width: 20rem;
+        margin-left: 1rem;
+        margin-top: 10rem;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: -25rem;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: var(--darkblue);
+    }
+
+    p {
+        width: 50rem;
+        margin-left: 23rem;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    b {
+        color: var(--darkblue);
+    }
+}
+
+.packages {
+
+    h1 {
+        font-weight: bolder;
+        color: var(--darkblue);
+        font-size: 25px;
+        margin-left: 23rem;
+    }
+
+    ul {
+        margin-left: 25rem;
+        list-style: none;
+    }
+
+    h3 {
+        margin-top: 2rem;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    ol {
+        margin-left: 40rem;
+        margin-top: -17.4rem;
+        list-style: none;
+    }
+
+    p {
+        width: 50rem;
+        font-size: 20px;
+        line-height: 31px;
+        margin-left: -2rem;
+        margin-top: 1.6rem;
+    }
+}
+
+.freetrial {
+
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: var(--darkblue);
+        margin-left: 22rem;
+    }
+
+    p {
+        width: 50rem;
+        text-align: justify;
+        margin-left: 23rem;
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+
+    b {
+        color: var(--darkblue);
+    }
+}
+
+.advantages {
+
+
+    h1 {
+        font-size: 20px;
+        font-weight: bolder;
+        color: var(--darkblue);
+        margin-left: 23rem;
+    }
+
+    ul {
+        width: 46.5rem;
+        margin-left: 26rem;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+
+.reasons {
+
+
+    h1 {
+        font-size: 25px;
+        font-weight: bolder;
+        color: var(--darkblue);
+        margin-left: 22rem;
+    }
+
+    p {
+        width: 50rem;
+        text-align: justify;
+        margin-left: 23rem;
+        font-size: 20px;
+    }
+}
+
+.reason-img1 {
+
+    img {
+        width: 20rem;
+        margin-top: -40rem;
+        margin-left: 1rem;
+    }
+}
+
+.reason-img2 {
+
+    img {
+        width: 20rem;
+        margin-top: -140rem;
+        margin-left: 1rem;
+    }
+}
+
+.footer {
+    background: var(--lightblue);
+    padding: 1rem 3rem;
+
+    h1 {
+        font-size: 25px;
+        padding-top: 1rem;
+        font-weight: bolder;
+        color: var(--white);
+    }
+
+    h2 {
+        float: right;
+        font-size: 25px;
+        margin-top: -2.5rem;
+        font-weight: bolder;
+        color: var(--white);
+    }
+
+    img {
+        width: 5rem;
+        margin-top: -4.5rem;
+        margin-left: 43rem;
+    }
+}

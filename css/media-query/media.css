@@ -1,0 +1,281 @@
+@media all and (max-width: 1025px) and (min-width: 768px) {
+  .header {
+    justify-content: center;
+    padding: 1rem 7.5rem;
+  }
+  .navigation {
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+  .cover .cover-details {
+    justify-content: center;
+    padding: 1rem 5rem;
+    text-align: center;
+  }
+  .cover .cover-details img {
+    width: 25%;
+  }
+  .promotion {
+    display: block;
+    padding: 1rem 0;
+  }
+  .promotion .promotion-image img {
+    width: 100%;
+  }
+  .cover .cover-details {
+    padding: 1rem 5rem;
+  }
+  .cover .cover-details img {
+    width: 10rem;
+  }
+  .cover .cover-details h1 {
+    font-size: 3rem;
+  }
+  .promotion {
+    display: block;
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  .promotion .promotion-header-left {
+    margin: 2rem 2rem;
+  }
+  .promotion .promotion-image-right img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 426px) and (min-width: 376px) {
+  .header {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  .cover .cover-details {
+    padding: 1rem 5rem;
+  }
+  .cover .cover-details h1 {
+    font-size: 2.5rem;
+  }
+  .cover .cover-details .cover-btn {
+    margin-top: -2rem;
+    padding: 0.5rem 2rem;
+  }
+  .cover .cover-details .cover-btn a {
+    font-size: 12px;
+  }
+  .services {
+    margin-top: 0.2rem;
+  }
+  .services .services-header {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .services .services-header h1 {
+    font-size: 4rem;
+  }
+  .services .services-details .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  }
+  .class {
+    justify-content: center;
+  }
+  .class .class-header {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .class .class-header h1 {
+    font-size: 3rem;
+  }
+  .class .class-header p {
+    font-size: 1.5rem;
+  }
+  .class .class-course video {
+    width: 100%;
+    margin: 0;
+  }
+  .promotion {
+    display: block;
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  .promotion .promotion-header-left {
+    margin: 1rem 0;
+  }
+  .promotion .promotion-header-left h1 {
+    font-size: 3rem;
+  }
+  .promotion .promotion-header-left p {
+    font-size: 1.5rem;
+  }
+  .promotion .promotion-header-left .btn-about {
+    padding: 0.5rem 3rem;
+  }
+  .promotion .promotion-image-right img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 376px) and (min-width: 321px) {
+  .header {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .cover .cover-details {
+    padding: 1rem 5rem;
+  }
+  .cover .cover-details img {
+    width: 5rem;
+  }
+  .cover .cover-details h1 {
+    font-size: 2.5rem;
+  }
+  .cover .cover-details .cover-btn {
+    margin-top: -2rem;
+    padding: 0.5rem 2rem;
+  }
+  .cover .cover-details .cover-btn a {
+    font-size: 12px;
+  }
+  .services {
+    justify-content: center;
+  }
+  .services .services-header {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .services .services-header h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+  .services .services-header p {
+    font-size: 1.5rem;
+  }
+  .services .services-details .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  }
+  .class {
+    justify-content: center;
+  }
+  .class .class-header {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .class .class-header h1 {
+    font-size: 2.5rem;
+  }
+  .class .class-header p {
+    font-size: 1.5rem;
+  }
+  .class .class-course video {
+    width: 100%;
+    margin: 0;
+  }
+  .promotion {
+    display: block;
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  .promotion .promotion-header-left {
+    margin: 1rem 0;
+  }
+  .promotion .promotion-header-left h1 {
+    font-size: 3rem;
+  }
+  .promotion .promotion-header-left p {
+    font-size: 1.1rem;
+  }
+  .promotion .promotion-header-left .btn-about {
+    padding: 0.5rem 3rem;
+  }
+  .promotion .promotion-image-right img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 321px) {
+  .header {
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  .cover {
+    height: auto;
+  }
+  .cover .cover-details {
+    padding: 1rem 0;
+  }
+  .cover .cover-details img {
+    width: 5rem;
+  }
+  .cover .cover-details h1 {
+    font-size: 1.5rem;
+  }
+  .cover .cover-details .cover-btn {
+    margin-top: -3rem;
+    padding: 0.5rem 2rem;
+  }
+  .cover .cover-details .cover-btn a {
+    font-size: 12px;
+  }
+  .services {
+    justify-content: center;
+  }
+  .services .services-header {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .services .services-header h1 {
+    font-size: 2.5rem;
+  }
+  .services .services-header p {
+    font-size: 1.1rem;
+  }
+  .services .services-details .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  }
+  .class {
+    justify-content: center;
+  }
+  .class .class-header {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .class .class-header h1 {
+    font-size: 2rem;
+  }
+  .class .class-header p {
+    font-size: 1rem;
+  }
+  .class .class-course video {
+    width: 100%;
+    margin: 0;
+  }
+  .promotion {
+    display: block;
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  .promotion .promotion-header-left {
+    margin: 1rem 0;
+  }
+  .promotion .promotion-header-left h1 {
+    font-size: 2rem;
+  }
+  .promotion .promotion-header-left p {
+    font-size: 1.1rem;
+  }
+  .promotion .promotion-header-left .btn-about {
+    padding: 0.5rem 3rem;
+  }
+  .promotion .promotion-image-right img {
+    width: 100%;
+  }
+}

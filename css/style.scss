@@ -16,19 +16,38 @@
     --darkblue: #03466E;
     --mintgreen: #90EE90;
     --green: #65CDAA;
+
+    --font-size-large: large;
+    --font-size-medium: medium;
+    --font-size-small: small;
 }
 
 .header {
     width: 100%;
     background: var(--lightblue);
     display: inline-flex;
-    align-items: baseline;
-    padding: 1rem 27rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
 
     i,p {
-        display: inline;
-        padding: 1rem 1rem;
+        display: inline-flex;
+        justify-content: center;
         color: var(--white);
+        margin: 0 1rem;
+        cursor: pointer;
+    }
+
+    a {
+        font-size: var(--font-size-large);
+        list-style: none;
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: var(--darkblue);
+        padding: 1rem 0;
     }
 }
 
@@ -56,13 +75,14 @@
     }
 
     .Navbar__Link:hover {
-        color: var(--red);
+        color: var(--darkblue);
     }
 
     .Navbar__Items {
         display: flex;
         margin-left: 2rem;
         font-weight: bold;
+        font-size: var(--font-size-large);
     }
 
     .Navbar__Link-toggle {
@@ -156,7 +176,7 @@
         margin-top: 1rem;
         background: var(--darkblue);
         color: var(--white);
-        font-size: 1rem;
+        font-size: var(--font-size-large);
         font-weight: bolder;
         border-radius: 5px;
         cursor: pointer;
@@ -190,14 +210,14 @@
         justify-content: center;
 
         h1 {
-            font-size: 5rem;
+            font-size: 48pt;
             font-weight: bolder;
             color: var(--darkblue);
             margin-bottom: 1rem;
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 18pt;
             color: var(--darkblue);
             margin-bottom: 1rem;
         }
@@ -220,7 +240,7 @@
         .card {
             width: 18rem;
             height: 18rem;
-            padding: 3rem 1rem;
+            padding: 1rem 1rem;
             margin: 1rem 1rem;
             text-align: center;
             background: transparent;
@@ -232,14 +252,14 @@
             }
 
             h2 {
-                font-size: 1.5rem;
+                font-size: 24pt;
                 font-weight: bolder;
                 color: var(--darkblue);
                 margin: 1rem 0;
             }
 
             p {
-                font-size: 1rem;
+                font-size: 14pt;
                 color: var(--darkblue);
             }
         }
@@ -254,14 +274,14 @@
         justify-content: center;
 
         h1 {
-            font-size: 5rem;
+            font-size: 48pt;
             font-weight: bolder;
             color: var(--darkblue);
             margin-bottom: 1rem;
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 18pt;
             color: var(--darkblue);
             margin-bottom: 1rem;
         }
@@ -291,7 +311,7 @@
         margin: 0 3rem;
 
         h1 {
-            font-size: 3rem;
+            font-size: 28pt;
             font-weight: bolder;
             text-transform: uppercase;
             color: var(--darkblue);
@@ -299,7 +319,7 @@
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 18pt;
             color: var(--darkblue);
             margin-bottom: 1rem;
         }
@@ -308,7 +328,6 @@
             display: inline-flex;
             justify-content: center;
             padding: 1rem 3rem;
-            margin-top: 1rem;
             background: var(--darkblue);
             color: var(--white);
             font-size: 1rem;

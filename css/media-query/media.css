@@ -49,7 +49,7 @@
     text-align: center;
   }
   .cover .cover-details {
-    padding: 1rem 5rem;
+    padding: 1rem 0;
   }
   .cover .cover-details h1 {
     font-size: 2.5rem;
@@ -118,17 +118,18 @@
 }
 @media all and (max-width: 376px) and (min-width: 321px) {
   .header {
-    padding: 1rem 1rem;
+    padding: 1rem 0.5rem;
     text-align: center;
+    font-size: small;
   }
   .cover .cover-details {
-    padding: 1rem 5rem;
+    padding: 1rem 1rem;
   }
   .cover .cover-details img {
     width: 5rem;
   }
   .cover .cover-details h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .cover .cover-details .cover-btn {
     margin-top: -2rem;
@@ -145,7 +146,7 @@
     text-align: center;
   }
   .services .services-header h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bolder;
   }
   .services .services-header p {
@@ -198,7 +199,7 @@
 }
 @media all and (max-width: 321px) {
   .header {
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
     text-align: center;
     font-size: 12px;
   }

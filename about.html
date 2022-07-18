@@ -4,141 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/about.css">
-    <!-- Bootstrap 5 CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Fontawesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <!-- Favicon -->
-    <link rel="icon" type="image" href="img/logo.png">
-    <title>About Us - Jiayou International School</title>
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/media-query/about.media..css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Home - Jiayou International School</title>
 </head>
 <body>
-    <!-- Start Info -->
-    <div class="info" id="info">
-        <div class="info-groups">
-            <div class="info-group1">
-                <i class="fa-regular fa-envelope"></i><h6>jiayouinternationalschool@gmail.com</h6>
-            <div class="info-group2">
-                <i class="fa-regular fa-clock"></i><h6>Monday - Friday</h6>
+    <div class="header">
+        <div class="info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>jiayouinternationalschool@gmail.com</p>
+            <i class="fa-solid fa-calendar"></i>
+            <p>Monday - Friday</p>
+            <a href="https://tinyurl.com/s474hwyc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="Navbar">
+            <div class="Navbar__Link Navbar__Link-brand">
+                <a href="index.html"><img src="img/logo.png" /></a>
+                </div>
+                <div class="Navbar__Link-toggle">
+                <i class="fas fa-bars"></i>
+                </div>
+            <nav class="Navbar__Items">
+                <a href="index.html" class="Navbar__Link">Jiayou International School</a>
+                <a href="about.html" class="Navbar__Link active">About Us</a>
+                <a href="#testimonials" class="Navbar__Link">Testimonials</a>
+                <a href="masterclass.html" class="Navbar__Link">English Master Class</a>
+                <a href="contact.html" class="Navbar__Link">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="cover">
+        <div class="cover-section">
+            <img src="img/logo.png" />
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h1>Mission</h1>
+                    <p>We develop learners to have a genuine desire for learning. We make learning fun and engaging.</p>
+                </div>
             </div>
-            <div class="icons">
-                <a href="https://tinyurl.com/45hcbb3p" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <div class="column">
+                <div class="card">
+                    <h1>Vision</h1>
+                    <p>We strive to deliver high-quality online tutorial services that meet the academic demands of all students, young and old. We work hard to improve and develop students' skills so that they can realize their maximum potential.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h1>Values</h1>
+                    <p>Excellence and Perseverance</p>
+                </div>
+            </div>
+            <div class="about">
+                <div class="about-header">
+                    <h1>About</h1>
+                    <p>Jiayou International School is an institution dedicated to promoting lifelong learning through supplementary education.</p>
+                </div>
+                <div class="about-images">
+                    <img src="img/img1.png" />
+                </div>
             </div>
         </div>
     </div>
-</div>
-    <!-- End Info -->
-    
-        <!-- Start Navbar -->
-        <div class="navbar" id="navbar">
-            <div class="nav_list">
-                <a href="index.html"><img src="img/logo.png"></a></img>
-                <ul>
-                    <li><a href="index.html">Jiayou International School</a></li>
-                    <li><a class="active" href="about.html">About Us</a></li>
-                    <li><a href="#testimonies">Testimonies</a></li>
-                    <li><a href="masterclass.html">English Master Class</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars"></i>
-        </div>
-        <!-- End Navbar -->
 
-        <!-- Start Cover Section-->
-        <div class="cover">
-            <img src="img/cover2.jpg" />
-        </div>
-        <div class="image">
-            <img src="img/logo.png" />
-        </div>
-        <!-- End Cover Section -->
-
-        <!-- Card Section -->
-        <div class="cards">
-            <img src="img/cover3.jpg" />
+    <div class="testimonies" id="testimonies">
+        <div class="testimonies-header">
+            <h1>Testimonials</h1>
         </div>
         <div class="row">
             <div class="column">
-            <div class="card" style="padding-bottom: 10rem;">
-                <img src="img/circle.png" />
-                <h1>M</h1>
-                <h3>ission</h3>
-                <p>We develop learners to have a genuine desire for learning. We make learning fun and engaging.</p>
+                <div class="card">
+                    <img src="img/stewie.png" />
+                    <h3>I used to be very shy in class but after having classes here I felt more confident.</h3>
+                    <p>- Stewie, 5 years old, China</p>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="img/circle.png" />
-                <h1>V</h1>
-                <h3>ission</h3>
-                <p>We strive to deliver high-quality online tutorial services that meet the academic demands of all students, young and old. We work hard to improve and develop students' skills so that they can realize their maximum potential.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 20rem; margin-top: -19.5rem; margin-left: 62rem; border-radius: 10px; box-shadow: 0 3px 10px #00000033; padding-bottom: 13rem;">
-            <img src="img/circle.png" style="width: 5rem; margin-top: -2.4rem; margin-left: 3.5rem;"/>
-                <h1 style="margin-top: -4rem; text-transform: uppercase; margin-left: 5.2rem; color: white; font-weight: bolder;">V</h1>
-                <h3 style="margin-top: -3rem; text-transform: uppercase; margin-left: 9.2rem; color: #03466E; font-weight: bolder;">alues</h3>
-                <p style="margin-top: 35px; text-align: center; font-size: 16px; font-weight: 500;">Excellence and Perseverance</p>
-            </div>
-        </div>
-        <div class="about">
-            <h1>About</h1>
-            <p>Jiayou International School is an institution dedicated to promoting lifelong learning through supplementary education.</p>
-            <img src="img/img1.png" />
-        </div>
-        <!-- End of Card Section -->
-
-        <!-- Start Testimonies-->
-        <div class="testimonies" id="testimonies">
-            <img src="img/img3.png" />
-            <h1>Testimonies</h1>
-        </div>
-        <div class="row1">
             <div class="column">
-            <div class="card">
-                <img src="img/stewie.png" />
-                <h3>I used to be very shy in class but after having classes here I felt more confident.</h3>
-                <p>- Stewie, 5 years old, China</p>
+                <div class="card">
+                    <img src="img/martina.png" />
+                    <h3>During my studies at Jiayou International School, my oral English greatly improved. I have gained new knowledge. My teacher is not only kind to me but also helps me a lot. She is very patient and always makes me feel comfortable. I love her lessons very much. I hope there will be more and more students joining Jiayou International School in the future.</h3>
+                    <p>- Martina, 11 years old, China</p>
+                </div>
             </div>
-            <div class="card" style="margin-top: -11.5rem; margin-left: 21rem;">
-                <img src="img/martina.png" />
-                <h3>During my studies at Jiayou International School, my oral English greatly improved. I have gained new knowledge. My teacher is not only kind to me but also helps me a lot. She is very patient and always makes me feel comfortable. I love her lessons very much. I hope there will be more and more students joining Jiayou International School in the future.</h3>
-                <p>- Martina, 11 years old, China</p>
+            <div class="column">
+                <div class="card">
+                    <img src="img/antonia.png" />
+                    <h3>I am very thankful that I decided to enroll in this class. This was the best decision I made.</h3>
+                    <p>- Antonia, 15 years old, Philippines</p>
+                </div>
             </div>
-            <div class="card" style="margin-top: -26.7rem; margin-left: 42rem;">
-                <img src="img/antonia.png" />
-                <h3>I am very thankful that I decided to enroll in this class. This was the best decision I made.</h3>
-                <p>- Antonia, 15 years old, Philippines</p>
+            <div class="column">
+                <div class="card">
+                    <img src="img/ester.png" />
+                    <h3>Our teacher treats us like family. I like having to join the class every time and am excited to learn as much as possible.</h3>
+                    <p>- Ester, 9 years old, Philippines</p>
+                </div>
             </div>
-            <div class="card" style="margin-top: 2rem;">
-                <img src="img/ester.png" />
-                <h3>Our teacher treats us like family. I like having to join the class every time and am excited to learn as much as possible.</h3>
-                <p>- Ester, 9 years old, Philippines</p>
+            <div class="column">
+                <div class="card">
+                    <img src="img/greg.png" />
+                    <h3>Classes are fun and my teacher is very accommodating. I was able to prepare for my IELTS exams easily.</h3>
+                    <p>- Greg, 17 years old, China</p>
+                </div>
             </div>
-            <div class="card" style="margin-top: 1rem; margin-left: 21rem;">
-                <img src="img/greg.png" />
-                <h3>Classes are fun and my teacher is very accommodating. I was able to prepare for my IELTS exams easily.</h3>
-                <p>- Greg, 17 years old, China</p>
-            </div>
-            <div class="card" style="margin-top: -27rem; margin-left: 42rem;">
-                <img src="img/echo.png" />
-                <h3>My teacher helps me prepare for my tests and examinations. It is really nice to have someone you can rely on. I was able to do more in my classes.</h3>
-                <p>- Echo, 16 years old, China</p>
+            <div class="column">
+                <div class="card">
+                    <img src="img/echo.png" />
+                    <h3>My teacher helps me prepare for my tests and examinations. It is really nice to have someone you can rely on. I was able to do more in my classes.</h3>
+                    <p>- Echo, 16 years old, China</p>
+                </div>
             </div>
         </div>
     </div>
 
-        <!-- End Testimonies-->
 
-        <!-- Start Footer -->
-        <div class="footer" id="footer">
-            <h1>jiayouinternationalschool@gmail.com</h1>
-            <h2>© All Rights Reserved 2021</h2>
+    <div class="footer">
+        <div class="footer-details">
             <img src="img/logo.png" />
         </div>
-        <!-- End Footer -->
+    </div>
+
+    <script>
+        function classToggle() {
+        const navs = document.querySelectorAll('.Navbar__Items')
+        
+        navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+        }
+    
+        document.querySelector('.Navbar__Link-toggle')
+        .addEventListener('click', classToggle);
+    </script>
 </body>
 </html>

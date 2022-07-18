@@ -1,0 +1,238 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --lightblue: #46AFCF;
+    --darkblue: #03466E;
+    --mintgreen: #90EE90;
+    --green: #65CDAA;
+
+    --font-size-large: large;
+    --font-size-medium: medium;
+    --font-size-small: small;
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+    .main {
+
+        .Navbar {
+            padding: .5rem 1rem;
+        }
+
+        .Navbar__Items {
+            font-size: 14px;
+        }
+    }
+
+    .cover {
+
+        .cover-section {
+            justify-content: center;
+            text-align: center;
+
+            img {
+                width: 14rem;
+                justify-content: center;
+                margin: 2rem 17rem;
+            }
+        }
+    }
+
+    .cards {
+        padding: 0;
+
+        .row {
+            padding: 1rem 1rem;
+            margin: 0;
+        }
+
+        .card {
+            margin: 1rem 1rem;
+        }
+        
+        .about {
+            display: block;
+            padding: 1rem;
+            margin: 0;
+            text-align: center;
+
+            .about-header {
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .testimonies {
+
+        .row {
+            padding: 0 1rem;
+        }
+
+        .column {
+            display: contents;
+            padding: 0;
+        }
+
+        .card {
+            margin: 1rem 1rem;
+            height: auto;
+        }
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 426px) {
+    .header {
+        padding: 1rem 1.5rem;
+        text-align: center;
+    }
+
+    .cover {
+        justify-content: center;
+        text-align: center;
+
+        img {
+            width: 20rem;
+            margin: 1rem 0;
+            text-align: center;
+        }
+    }
+
+    .cards {
+        padding: 0;
+        margin: 0;
+
+        .row {
+            padding: 1rem 1rem;
+            margin: 0;
+            justify-content: center;
+        }
+
+        .card {
+            margin: 1rem 1rem;
+        }
+
+        .about {
+            display: block;
+            padding: 1rem;
+            margin: 0;
+            text-align: center;
+
+            .about-header {
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            .about-images {
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .testimonies {
+
+        h1 {
+            font-size: 3.5rem;
+        }
+            
+        .row {
+                padding: 0 1rem;
+        }
+    
+        .column {
+            display: contents;
+            padding: 0;
+        }
+    
+        .card {
+            margin: 1rem 1rem;
+            height: auto;
+        }
+    }
+}
+
+@media all and (max-width: 426px) {
+    .header {
+        padding: 1rem 14px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cover {
+
+        .cover-section {
+            text-align: center;
+
+            img {
+                width: 20rem;
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    .cards {
+        padding: 0;
+        margin: 0;
+
+        .row {
+            padding: 1rem 1rem;
+            margin: 0;
+            justify-content: center;
+        }
+
+        .card {
+            margin: 1rem 1rem;
+        }
+
+        .about {
+            display: block;
+            padding: 1rem;
+            margin: 0;
+            text-align: center;
+
+            .about-header {
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            .about-images {
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .testimonies {
+        justify-content: center;
+            
+            h1 {
+                font-size: 2.5rem;
+                padding: 0;
+                margin: 0;
+            }
+                
+            .row {
+                    padding: 0 1rem;
+            }
+        
+            .column {
+                display: contents;
+                padding: 0;
+            }
+        
+            .card {
+                margin: 1rem 1rem;
+                height: auto;
+            }
+    }
+}

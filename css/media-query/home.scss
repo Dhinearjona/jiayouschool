@@ -12,6 +12,30 @@
 }
 
 @media all and (max-width: 1025px) and (min-width: 768px) {
+    .main {
+
+        .Navbar {
+            padding: 0;
+        }
+
+        .Navbar__Items {
+            margin: 0;
+            font-size: 14px;
+            z-index: 1;
+            background: var(--lightblue);
+            margin-top: .5rem;
+            padding: 1rem;
+        }
+
+        .Navbar__Link {
+            color: var(--white);
+        }
+
+        .active {
+            color: var(--darkblue);
+        }
+    }
+
     .header {
         justify-content: center;
         padding: 1rem 7.5rem;
@@ -137,7 +161,32 @@
 }
 
 @media all and (max-width: 768px) and (min-width: 426px) {
+    .main {
+
+        .Navbar {
+            padding: 0;
+        }
+
+        .Navbar__Items {
+            margin: 0;
+            font-size: 14px;
+            z-index: 1;
+            background: var(--lightblue);
+            margin-top: .5rem;
+            padding: 1rem;
+        }
+
+        .Navbar__Link {
+            color: var(--white);
+        }
+
+        .active {
+            color: var(--darkblue);
+        }
+    }
+
     .header {
+        text-align: center;
 
         i,p {
             font-size: var(--font-size-small);
@@ -173,6 +222,30 @@
 }
 
 @media all and (max-width: 426px) and (min-width: 376px) {
+    .main {
+
+        .Navbar {
+            padding: 0;
+        }
+
+        .Navbar__Items {
+            margin: 0;
+            font-size: 14px;
+            z-index: 1;
+            background: var(--lightblue);
+            margin-top: .5rem;
+            padding: 1rem;
+        }
+
+        .Navbar__Link {
+            color: var(--white);
+        }
+
+        .active {
+            color: var(--darkblue);
+        }
+    }
+
     .header {
         padding: 1rem 3rem;
         text-align: center;
@@ -284,6 +357,30 @@
 }
 
 @media all and (max-width: 376px) and (min-width: 321px) {
+    .main {
+
+        .Navbar {
+            padding: 0;
+        }
+
+        .Navbar__Items {
+            margin: 0;
+            font-size: 14px;
+            z-index: 1;
+            background: var(--lightblue);
+            margin-top: .5rem;
+            padding: 1rem;
+        }
+
+        .Navbar__Link {
+            color: var(--white);
+        }
+
+        .active {
+            color: var(--darkblue);
+        }
+    }
+
     .header {
         padding: 1rem .5rem;
         text-align: center;
@@ -403,6 +500,30 @@
 }
 
 @media all and (max-width: 321px) {
+    .main {
+
+        .Navbar {
+            padding: 0;
+        }
+
+        .Navbar__Items {
+            margin: 0;
+            font-size: 14px;
+            z-index: 1;
+            background: var(--lightblue);
+            margin-top: .5rem;
+            padding: 1rem;
+        }
+
+        .Navbar__Link {
+            color: var(--white);
+        }
+
+        .active {
+            color: var(--darkblue);
+        }
+    }
+
     .header {
         padding: .5rem .5rem;
         text-align: center;

@@ -1,0 +1,231 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --lightblue: #46AFCF;
+    --darkblue: #03466E;
+    --mintgreen: #90EE90;
+    --green: #65CDAA;
+
+    --font-size-large: large;
+    --font-size-medium: medium;
+    --font-size-small: small;
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+    .main {
+
+        .Navbar {
+            padding: .5rem 1rem;
+        }
+
+        .Navbar__Items {
+            font-size: 14px;
+        }
+    }
+
+    .masterclass {
+        margin: 1rem 5rem;
+        column-gap: 1rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+    }
+
+    .packages {
+        margin: 1rem 5rem;
+
+        .package-left,
+        .package-right {
+            display: table-cell;
+        }
+    }
+
+    .freetrial {
+        margin: 1rem 5rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+    }
+
+    .advantages {
+        margin: 1rem 5rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+    }
+
+    .reasons {
+        margin: 1rem 5rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 426px) {
+    .main {
+        .Navbar {
+            padding: 0;
+        }
+
+        .Navbar__Items {
+            margin: 0;
+            font-size: 14px;
+            z-index: 1;
+            background: var(--lightblue);
+            margin-top: .5rem;
+            padding: 1rem;
+        }
+
+        .Navbar__Link {
+            color: var(--white);
+        }
+
+        .active {
+            color: var(--darkblue);
+        }
+    }
+
+    .masterclass {
+        margin: 1rem 5rem;
+        column-gap: 1rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+    }
+
+    .packages {
+        margin: 1rem 5rem;
+
+        .package-left,
+        .package-right {
+            display: table-cell;
+        }
+    }
+
+    .freetrial {
+        margin: 1rem 5rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+    }
+
+    .advantages {
+        margin: 1rem 5rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+    }
+
+    .reasons {
+        margin: 1rem 5rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+    }
+}
+
+@media all and (max-width: 426px) {
+    .main {
+
+        .Navbar {
+            padding: 0;
+        }
+
+        .Navbar__Items {
+            margin: 0;
+            font-size: 14px;
+            z-index: 1;
+            background: var(--lightblue);
+            margin-top: .5rem;
+            padding: 1rem;
+        }
+
+        .Navbar__Link {
+            color: var(--white);
+        }
+
+        .active {
+            color: var(--darkblue);
+        }
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .masterclass {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem 1rem;
+
+        h1 {
+            font-size: 36px;
+            margin: 1rem 0;
+        }
+
+        img {
+            width: 15rem;
+        }
+    }
+
+    .packages {
+        margin: 1rem 1rem;
+
+        h1 {
+            text-align: center;
+        }
+
+        .package-left,
+        .package-right {
+            display: table-cell;
+        }
+        
+        p {
+            text-align: center;
+        }
+    }
+
+    .freetrial {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem 1rem;
+
+        img {
+            width: 15rem;
+        }
+    }
+
+    .advantages {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem 1rem;
+    }
+
+    .reasons {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem 1rem;
+    }
+
+}

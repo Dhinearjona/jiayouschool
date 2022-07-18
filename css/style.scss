@@ -28,6 +28,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 1rem 1rem;
 
     i,p {
@@ -56,11 +57,13 @@
 
     .Navbar {
         background-color: var(--white);
+        height: 4rem;
         display: flex;
         padding: .5rem 6rem;
         font-family: sans-serif;
         color: var(--white);
         align-items: center;
+        box-shadow: #959da533 0px 8px 24px;
     }
     
     img {

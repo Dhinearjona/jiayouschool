@@ -26,6 +26,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 1rem 1rem;
 }
 .header i, .header p {
@@ -51,11 +52,13 @@
 }
 .main .Navbar {
   background-color: var(--white);
+  height: 4rem;
   display: flex;
   padding: 0.5rem 6rem;
   font-family: sans-serif;
   color: var(--white);
   align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .main img {
   width: 3rem;

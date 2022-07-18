@@ -6,76 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/contact.css">
-    <!-- Bootstrap 5 CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Fontawesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <!-- Favicon -->
-    <link rel="icon" type="image" href="img/logo.png">
-    <title>Contact Us - Jiayou International School</title>
+    <link rel="stylesheet" href="./css/media-query/contact-media.css">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Icon Link -->
+    <link rel="icon" type="image/png" href = "img/logo.png">
+    <title>Contact - Jiayou International School</title>
 </head>
 <body>
-    <!-- Start Info -->
-    <div class="info" id="info">
-        <div class="info-groups">
-            <div class="info-group1">
-                <i class="fa-regular fa-envelope"></i><h6>jiayouinternationalschool@gmail.com</h6>
-            <div class="info-group2">
-                <i class="fa-regular fa-clock"></i><h6>Monday - Friday</h6>
-            </div>
-            <div class="icons">
-                <a href="https://tinyurl.com/45hcbb3p" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            </div>
+    <div class="header">
+        <div class="info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>jiayouinternationalschool@gmail.com</p>
+            <i class="fa-solid fa-calendar"></i>
+            <p>Monday - Friday</p>
+            <a href="https://tinyurl.com/s474hwyc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         </div>
     </div>
-</div>
-    <!-- End Info -->
-    
-        <!-- Start Navbar -->
-        <div class="navbar" id="navbar">
-            <div class="nav_list">
-                <a href="index.html"><img src="img/logo.png"></a></img>
-                <ul>
-                    <li><a href="index.html">Jiayou International School</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="about.html">Testimonies</a></li>
-                    <li><a href="masterclass.html">English Master Class</a></li>
-                    <li><a class="active" href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars"></i>
-        </div>
-        <!-- End Navbar -->
 
-        <!-- Start Contact Us -->
-        <div class="contact">
-            <div id="contact">
-                <h1>Contact Us</h1>
-                <h3>Email:</h3>
-                <a href="mailto:jiayouinternationalschool@gmail.com" target="_blank"><p>jiayouinternationalschool@gmail.com</p></a>
-                <h3>Phone:</h3>
-                <p>(+63)917-623-4528</p>
-                <h3>Skype:</h3>
-                <p>live:.cid.2787b0daa795c69a</p>
-            </div>
+    <div class="main">
+        <div class="Navbar">
+            <div class="Navbar__Link Navbar__Link-brand">
+                <a href="index.html"><img src="img/logo.png" /></a>
+                </div>
+                <div class="Navbar__Link-toggle">
+                <i class="fas fa-bars"></i>
+                </div>
+            <nav class="Navbar__Items">
+                <a href="index.html" class="Navbar__Link">Jiayou International School</a>
+                <a href="about.html" class="Navbar__Link">About Us</a>
+                <a href="/about.html#testimonies" class="Navbar__Link">Testimonials</a>
+                <a href="masterclass.html" class="Navbar__Link">English Master Class</a>
+                <a href="contact.html" class="Navbar__Link active">Contact Us</a>
+            </nav>
         </div>
-        <div class="image1">
-            <img src="img/class1.png" />
+    </div>
+
+    <div class="contact">
+        <img src="img/class1.png" />
+        <div class="contact-section">
+            <h1>Contact Us</h1>
+            <h3>Email:</h3>
+            <a href="mailto:jiayouinternationalschool@gmail.com" target="_blank"><p>jiayouinternationalschool@gmail.com</p></a>
+            <h3>Phone:</h3>
+            <p>(+63)917-623-4528</p>
+            <h3>Skype:</h3>
+            <p>live:.cid.2787b0daa795c69a</p>
         </div>
-        <div class="image2">
-            <img src="img/class2.png" />
+        <img src="img/class2.png" />
+    </div>
+
+    <div class="apps">
+        <div class="apps-left">
+            <h3>Weibo</h3>
+            <img src="img/weibo.jpg" />
         </div>
-        <div class="row">
-            <div class="column">
-                <h3>Weibo</h3>
-                <img src="img/weibo.jpg" />
-        </div>
-        <div class="column">
-            <h3>ClassIn</h3>
+        <div class="apps-right">
+            <h3>WeChat</h3>
             <img src="img/classin.jpg" />
         </div>
     </div>
+
     <div class="details">
         <p>Please Download ClassIn to conduct the classes effectively. Please click on this link to start the download:</p>
     </div>
@@ -85,12 +78,21 @@
     </div>
         <!-- End Contact Us -->
 
-        <!-- Start Footer -->
-            <div class="footer" id="footer">
-                <h1>jiayouinternationalschool@gmail.com</h1>
-                <h2>© All Rights Reserved 2021</h2>
+        <div class="footer">
+            <div class="footer-section">
                 <img src="img/logo.png" />
             </div>
-        <!-- End Footer -->
-</body>
-</html>
+        </div>
+        
+        <script>
+            function classToggle() {
+            const navs = document.querySelectorAll('.Navbar__Items')
+                
+            navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+            }
+            
+            document.querySelector('.Navbar__Link-toggle')
+            .addEventListener('click', classToggle);
+        </script>
+    </body>
+    </html>

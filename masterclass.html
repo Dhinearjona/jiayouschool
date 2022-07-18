@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/masterclass.css">
+    <link rel="stylesheet" href="/css/media-query/masterclass-media.css">
     <!-- Bootstrap 5 CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,78 +17,74 @@
     <title>English Master Class - Jiayou International School</title>
 </head>
 <body>
-    <!-- Start Info -->
-    <div class="info" id="info">
-        <div class="info-groups">
-            <div class="info-group1">
-                <i class="fa-regular fa-envelope"></i><h6>jiayouinternationalschool@gmail.com</h6>
-            <div class="info-group2">
-                <i class="fa-regular fa-clock"></i><h6>Monday - Friday</h6>
-            </div>
-            <div class="icons">
-                <a href="https://tinyurl.com/45hcbb3p" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            </div>
+    <div class="header">
+        <div class="info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>jiayouinternationalschool@gmail.com</p>
+            <i class="fa-solid fa-calendar"></i>
+            <p>Monday - Friday</p>
+            <a href="https://tinyurl.com/s474hwyc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         </div>
     </div>
-</div>
-    <!-- End Info -->
-    
-        <!-- Start Navbar -->
-        <div class="navbar" id="navbar">
-            <div class="nav_list">
-                <a href="index.html"><img src="img/logo.png"></a></img>
-                <ul>
-                    <li><a href="index.html">Jiayou International School</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="about.html">Testimonies</a></li>
-                    <li><a class="active" href="masterclass.html">English Master Class</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars"></i>
-        </div>
-        <!-- End Navbar -->
 
-        <!-- Start Masterclass -->
-        <div class="masterclass">
-            <img src="img/class3.png" />
-            <div id="masterclass">
-                <h1>Invitation for master class</h1>
-                <p>&emsp;&emsp;&emsp;Jiayou International School would like to officially invite you to join the <b>English Master Classes</b> with our qualified teachers. We have secured all legal documents for the business to operate and we have prepared all the necessary convenient payment options. The lessons, for kids and adults, will cover Grammar, Daily Conversation, Transportation, Travel Conversation, Restaurant Conversation, IELTS, Vocabulary, Discussion, Free-talk, Business English, Science and many more. We have acquired several high-end sources of e-books, worksheets, and audio books such as Oxford Phonics World, Primary Grammar, Oxford Reading Books, Cambridge Super Minds, Side by Side, Oxford Stories, Family and Friend 2nd Edition, Highlights, Super Junior, Cambridge Primary, Pearson Speak out, National Geographic Our World, and so much more options to choose from for both kids and adults. A total of 4,000 materials to choose from.</p>
-            </div>
+    <div class="main">
+        <div class="Navbar">
+            <div class="Navbar__Link Navbar__Link-brand">
+                <a href="index.html"><img src="img/logo.png" /></a>
+                </div>
+                <div class="Navbar__Link-toggle">
+                <i class="fas fa-bars"></i>
+                </div>
+            <nav class="Navbar__Items">
+                <a href="index.html" class="Navbar__Link">Jiayou International School</a>
+                <a href="about.html" class="Navbar__Link">About Us</a>
+                <a href="/about.html#testimonies" class="Navbar__Link">Testimonials</a>
+                <a href="masterclass.html" class="Navbar__Link active">English Master Class</a>
+                <a href="contact.html" class="Navbar__Link">Contact Us</a>
+            </nav>
         </div>
-            <div class="packages">
-                <h1>Packages for foreign account in China (Kids)</h1>
-                    <ul>
-                        <li><h3>Platform:</h3></li>
-                        <li><h3>Minutes:</h3></li>
-                        <li><h3>Type of class:</h3></li>
-                        <li><h3>Payment Method:</h3></li>
-                        <li><h3>Amount:</h3></li>
-                    </ul>
-                    <ol>
-                        <li><p>ClassIn App</p></li>
-                        <li><p>25 Minutes Per Class</p></li>
-                        <li><p>One-on-One</p></li>
-                        <li><p>QR Code</p></li>
-                        <li><p>Free for 1st Trial Class
-                            <br>60 RMB for 1 Class
-                            <br>600 RMB for 10 Classes with Free 2 Classes
-                            <br>900 RMB for 15 Classes with Free 4 Classes
-                            <br>1500 RMB for 25 Classes with Free 8 Classes
-                            <br>2800 RMB for 50 Classes with Free 15 Classes
-                            <br>5500 RMB for 100 Classes with Free 30 Classes
-                        </p></li>
-                    </ol>
+    </div>
+
+    <div class="masterclass">
+        <img src="img/class3.png" />
+    <div class="master-details">
+        <h1>Invitation for master class</h1>
+            <p>&emsp;&emsp;&emsp;Jiayou International School would like to officially invite you to join the <b>English Master Classes</b> with our qualified teachers. We have secured all legal documents for the business to operate and we have prepared all the necessary convenient payment options. The lessons, for kids and adults, will cover Grammar, Daily Conversation, Transportation, Travel Conversation, Restaurant Conversation, IELTS, Vocabulary, Discussion, Free-talk, Business English, Science and many more. We have acquired several high-end sources of e-books, worksheets, and audio books such as Oxford Phonics World, Primary Grammar, Oxford Reading Books, Cambridge Super Minds, Side by Side, Oxford Stories, Family and Friend 2nd Edition, Highlights, Super Junior, Cambridge Primary, Pearson Speak out, National Geographic Our World, and so much more options to choose from for both kids and adults. A total of 4,000 materials to choose from.</p>
+        </div>
+    </div>
+
+    <div class="packages">
+        <h1>Packages for foreign account in China (Kids)</h1>
+            <ul class="package-left">
+                <li><h3>Platform:</h3></li>
+                <li><h3>Minutes:</h3></li>
+                <li><h3>Type of class:</h3></li>
+                <li><h3>Payment Method:</h3></li>
+                <li><h3>Amount:</h3></li>
+            </ul>
+            <ol class="package-right">
+                <li><p>ClassIn App</p></li>
+                <li><p>25 Minutes Per Class</p></li>
+                <li><p>One-on-One</p></li>
+                <li><p>QR Code</p></li>
+                <li><p>Free for 1st Trial Class
+                    <br>60 RMB for 1 Class
+                    <br>600 RMB for 10 Classes with Free 2 Classes
+                    <br>900 RMB for 15 Classes with Free 4 Classes
+                    <br>1500 RMB for 25 Classes with Free 8 Classes
+                    <br>2800 RMB for 50 Classes with Free 15 Classes
+                    <br>5500 RMB for 100 Classes with Free 30 Classes
+                </p></li>
+            </ol>
                 <h1>Packages for foreign account in China (IELTS/ADULTS)</h1>
-                    <ul>
+                    <ul class="package-left">
                         <li><h3>Platform:</h3></li>
                         <li><h3>Minutes:</h3></li>
                         <li><h3>Type of class:</h3></li>
                         <li><h3>Payment Method:</h3></li>
                         <li><h3>Amount:</h3></li>
                     </ul>
-                    <ol>
+                    <ol class="package-right">
                         <li><p>ClassIn App</p></li>
                         <li><p>30 Minutes Per Class</p></li>
                         <li><p>One-on-One</p></li>
@@ -107,13 +104,16 @@
                 </div>
             </div>
             <div class="freetrial">
+                <img src="img/class2.png" />
+                <div class="freetrial-details">
                     <h1>Free Trial Process</h1>
-                        <p><b>Assessment:</b> There will be a diagnostic test for first-time enrollees, to know which level is appropriate for them. Parents have the opportunity to freely choose the classes they want the students to have. The child can also choose a lesson he/she wants to begin with as long as the teacher sees it fit.</p>
-                        <p><b>Evaluation:</b> An evaluation will be conducted every after class to identify how much they have learned in the lesson.</p>
-                        <p><b>Review:</b> A review will be conducted before the start of the new lesson.</p>
-                        <p><b>Study Guide:</b> Free study guides, worksheets, flashcards, etc. will be provided, if needed, after the class and they will be sent together with the feedback of the teacher.</p>
+                    <p><b>Assessment:</b> There will be a diagnostic test for first-time enrollees, to know which level is appropriate for them. Parents have the opportunity to freely choose the classes they want the students to have. The child can also choose a lesson he/she wants to begin with as long as the teacher sees it fit.</p>
+                    <p><b>Evaluation:</b> An evaluation will be conducted every after class to identify how much they have learned in the lesson.</p>
+                    <p><b>Review:</b> A review will be conducted before the start of the new lesson.</p>
+                    <p><b>Study Guide:</b> Free study guides, worksheets, flashcards, etc. will be provided, if needed, after the class and they will be sent together with the feedback of the teacher.
                 </div>
             </div>
+
             <div class="advantages">
                 <h1>Advantages:</h1>
                 <ul>
@@ -124,22 +124,27 @@
                     <li><p>Feedback will be provided after every class.</p></li>
                 </ul>
             </div>
+
             <div class="reasons">
                 <h1>Why choose to have an English Master Class with Teacher Mariel?</h1>
                 <p>&emsp;&emsp;&emsp;Teacher Mariel is a Doctorate unit holder in Educational Leadership, a Master's degree graduate in Elementary Education, a Bachelors degree graduate in Elementary Education, and a Bachelor's degree unit holder in Early Childhood Education. She has more than 12 years of teaching experience now. She has attended several educational seminars both locally in the Philippines and internationally in Japan. She started as a community volunteer teacher to help teach the poorest of the poor in her city. She is currently teaching students across the globe, in Russia, Japan, Taiwan, China, Italy, Hongkong, Philippines and many more. She is the President and CEO of Jiayou Reading and Tutorial Services. She has been a proctor for big examinations such as the PRC licensure exams of Engineering, Education, Architecture and Nursing. A proctor for NAPOLCOM an examination for militants. Also, CSC examination proctor for civil servants. Overall, she wants to bring out the best in your child. Her heart was always ready to help and her mind was always hungry for learning. She strongly believes that learning never ends and she wants to share what she knows to the best of her ability.</p>
             </div>
-            <div class="reason-img1">
-                <img src="img/class2.png" />
-            </div>
-            <div class="reason-img2">
-                <img src="img/class1.png" />
-            </div>
-        <!-- End Masterclass-->
 
-        <!-- Start Footer -->
-            <div class="footer" id="footer">
-                <h1>jiayouinternationalschool@gmail.com</h1>
-                <h2>© All Rights Reserved 2021</h2>
-                <img src="img/logo.png" />
+            <div class="footer">
+                <div class="footer-section">
+                    <img src="img/logo.png" />
+                </div>
             </div>
-        <!-- End Footer -->
+
+    <script>
+        function classToggle() {
+        const navs = document.querySelectorAll('.Navbar__Items')
+            
+        navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+        }
+        
+        document.querySelector('.Navbar__Link-toggle')
+        .addEventListener('click', classToggle);
+    </script>
+</body>
+</html>

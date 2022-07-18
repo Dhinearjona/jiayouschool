@@ -1,0 +1,223 @@
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --lightblue: #46AFCF;
+  --darkblue: #03466E;
+  --mintgreen: #90EE90;
+  --green: #65CDAA;
+  --font-size-large: large;
+  --font-size-medium: medium;
+  --font-size-small: small;
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+  .main .Navbar {
+    padding: 0.5rem 1rem;
+  }
+  .main .Navbar__Items {
+    font-size: 14px;
+  }
+  .cover .cover-section {
+    justify-content: center;
+    text-align: center;
+  }
+  .cover .cover-section img {
+    width: 14rem;
+    justify-content: center;
+    margin: 2rem 17rem;
+  }
+  .cards {
+    padding: 0;
+  }
+  .cards .row {
+    padding: 1rem 1rem;
+    margin: 0;
+  }
+  .cards .card {
+    margin: 1rem 1rem;
+  }
+  .cards .about {
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+  }
+  .cards .about .about-header p {
+    text-align: center;
+  }
+  .testimonies .row {
+    padding: 0 1rem;
+  }
+  .testimonies .column {
+    display: contents;
+    padding: 0;
+  }
+  .testimonies .card {
+    margin: 1rem 1rem;
+    height: auto;
+  }
+}
+@media all and (max-width: 768px) and (min-width: 426px) {
+  .main .Navbar {
+    padding: 0;
+  }
+  .main .Navbar__Items {
+    margin: 0;
+    font-size: 14px;
+    z-index: 1;
+    background: var(--lightblue);
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+  .main .Navbar__Link {
+    color: var(--white);
+  }
+  .main .active {
+    color: var(--darkblue);
+  }
+  .header {
+    text-align: center;
+  }
+  .main .Navbar {
+    padding: 0;
+  }
+  .main .Navbar__Items {
+    margin: 0;
+    font-size: 14px;
+    z-index: 1;
+    background: var(--lightblue);
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+  .main .Navbar__Link {
+    color: var(--white);
+  }
+  .main .active {
+    color: var(--darkblue);
+  }
+  .header {
+    padding: 1rem 1.5rem;
+    text-align: center;
+  }
+  .cover {
+    justify-content: center;
+    text-align: center;
+  }
+  .cover img {
+    width: 20rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .cards {
+    padding: 0;
+    margin: 0;
+  }
+  .cards .row {
+    padding: 1rem 1rem;
+    margin: 0;
+    justify-content: center;
+  }
+  .cards .card {
+    margin: 1rem 1rem;
+  }
+  .cards .about {
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+  }
+  .cards .about .about-header p {
+    text-align: center;
+  }
+  .cards .about .about-images img {
+    width: 100%;
+  }
+  .testimonies h1 {
+    font-size: 3.5rem;
+  }
+  .testimonies .row {
+    padding: 0 1rem;
+  }
+  .testimonies .column {
+    display: contents;
+    padding: 0;
+  }
+  .testimonies .card {
+    margin: 1rem 1rem;
+    height: auto;
+  }
+}
+@media all and (max-width: 426px) {
+  .main .Navbar {
+    padding: 0;
+  }
+  .main .Navbar__Items {
+    margin: 0;
+    font-size: 14px;
+    z-index: 1;
+    background: var(--lightblue);
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+  .main .Navbar__Link {
+    color: var(--white);
+  }
+  .main .active {
+    color: var(--darkblue);
+  }
+  .header {
+    padding: 1rem 14px;
+    text-align: center;
+    justify-content: center;
+  }
+  .cover .cover-section {
+    text-align: center;
+  }
+  .cover .cover-section img {
+    width: 20rem;
+    margin: 1rem 0;
+  }
+  .cards {
+    padding: 0;
+    margin: 0;
+  }
+  .cards .row {
+    padding: 1rem 1rem;
+    margin: 0;
+    justify-content: center;
+  }
+  .cards .card {
+    margin: 1rem 1rem;
+  }
+  .cards .about {
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+  }
+  .cards .about .about-header p {
+    text-align: center;
+  }
+  .cards .about .about-images img {
+    width: 100%;
+  }
+  .testimonies {
+    justify-content: center;
+  }
+  .testimonies h1 {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  .testimonies .row {
+    padding: 0 1rem;
+  }
+  .testimonies .column {
+    display: contents;
+    padding: 0;
+  }
+  .testimonies .card {
+    margin: 1rem 1rem;
+    height: auto;
+  }
+}

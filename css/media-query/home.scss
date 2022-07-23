@@ -22,13 +22,12 @@
             margin: 0;
             font-size: 14px;
             z-index: 1;
-            background: var(--lightblue);
             margin-top: .5rem;
             padding: 1rem;
         }
 
         .Navbar__Link {
-            color: var(--white);
+            color: var(--black);
         }
 
         .active {
@@ -38,18 +37,8 @@
 
     .header {
         justify-content: center;
-        padding: 1rem 7.5rem;
+        padding: 1rem 6rem;
         font-size: var(--font-size-medium);
-    }
-
-    .main {
-
-        .Navbar {
-
-            .Navbar__Items {
-                font-size: var(--font-size-medium);
-            }
-        }
     }
 
     .cover {

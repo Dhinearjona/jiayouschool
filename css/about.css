@@ -20,6 +20,10 @@
   --font-size-small: small;
 }
 
+body {
+  height: 100vh;
+}
+
 .header {
   width: 100%;
   background: var(--lightblue);
@@ -238,8 +242,6 @@
   justify-content: center;
   text-align: center;
 }
-.footer .footer-details img {
-  width: 4rem;
+.footer p {
   padding: 1rem 0;
-  cursor: pointer;
 }

@@ -22,6 +22,10 @@
     --font-size-small: small;
 }
 
+body {
+    height: 100vh;
+}
+
 .header {
     width: 100%;
     background: var(--lightblue);
@@ -369,8 +373,7 @@
     justify-content: center;
     text-align: center;
 
-    img {
-        width: 4rem;
+    p {
         padding: 1rem 0;
     }
 }

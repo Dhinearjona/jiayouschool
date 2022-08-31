@@ -221,3 +221,6 @@
     height: auto;
   }
 }
+.footer p {
+  margin: 0 0.5rem;
+}

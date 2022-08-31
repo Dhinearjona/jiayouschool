@@ -218,6 +218,10 @@
     width: 100%;
   }
 }
+.footer p {
+  margin: 0 0.5rem;
+}
+
 @media all and (max-width: 376px) and (min-width: 321px) {
   .main .Navbar {
     padding: 0;
